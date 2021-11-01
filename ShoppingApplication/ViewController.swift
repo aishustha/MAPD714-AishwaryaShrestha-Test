@@ -9,17 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var titleName: UITextField!
-    @IBOutlet weak var titleNameLabel: UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
 
-    //items quantity
-    @IBOutlet weak var itemsQuantity1: UILabel!
-    @IBOutlet weak var itemsQuantity2: UILabel!
-    @IBOutlet weak var itemsQuantity3: UILabel!
-    @IBOutlet weak var itemsQuantity4: UILabel!
-    @IBOutlet weak var itemsQuantity5: UILabel!
-    
-    
-    
+
 }
 
